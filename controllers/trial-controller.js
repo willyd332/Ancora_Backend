@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require('../db/db.js');
 
 const router = express.Router();
 
@@ -18,3 +19,5 @@ router.get('/', async (req, res) => {
 });
 
 module.exports = router;
+
+// Example Query: const { rows } = await db.query('SELECT * FROM users WHERE id = $1', [1]);

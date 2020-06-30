@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const session = require('express-session');
 require('dotenv').config();
-require('./db/db');
+const db = require('./db/db.js');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -35,4 +35,11 @@ app.get('/', (req, res) => {
 
 app.listen(process.env.PORT || 9000, () => {
   console.log(`Server is listening on port ${process.env.PORT} or 9000`);
+});
+
+db.query('SELECT NOW()', (err, res) => {
+  if (err) {
+    throw err;
+  }
+  console.log(`Connected to postgres @ ${res.rows[0].now}`);
 });
