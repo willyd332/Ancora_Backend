@@ -1,9 +1,17 @@
 # Ancora_Backend
 
 
+## MVP
+The MVP will be an index of the studies form Clinical Trials in an easily accessable format, so that people can quickly get a goot idea of the general landscape of current clinical research on whatever topic/disease they want. It will additionally serve as a way for them to search for studies that they can potentially volunteer for.
+
+## Extra Stuff
+Ideally I will also query for more info about the study and have detailed show pages for all the studies so that a use can get more info directly in the app. But for the MVP, I will instead link to Clinical Trials's show page for any particular study (as eas study has lots of complex information)
+
+
 ### The Data
 
 - Main source will be https://clinicaltrials.gov/
+- Info About The API https://clinicaltrials.gov/api/gui/ref/api_urls
 - It is updateted daily and can be downloaded as XML @ `https://clinicaltrials.gov/AllPublicXML.zip`
 
 
