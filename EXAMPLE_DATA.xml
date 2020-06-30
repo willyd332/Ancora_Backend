@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search_results count="344170">
+  <query>ALL</query>
+  <!-- Additional study fields may be added over time -->
+  <study rank="1">
+    <nct_id>NCT04452825</nct_id>
+    <title>A New Psychotherapy Intervention for Older Cancer Patients</title>
+    <acronym/>
+    <status open="N">Active, not recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Cancer</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Behavioral">Cancer and Aging: Reflections for Elders (CARE) Intervention</intervention>
+      <intervention type="Behavioral">Social Work and Supportive Counseling (SWSC) Intervention</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Depression and Anxiety: Hospital Anxiety and Depression Scale (HADS)</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Memorial Sloan Kettering Cancer Center</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>70 Years</min_age>
+    <age_groups>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>476</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Observational Model: Case-Control</study_design>
+      <study_design>Time Perspective: Prospective</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>20-191</other_id>
+    </other_ids>
+    <start_date>June 9, 2020</start_date>
+    <primary_completion_date>June 2025</primary_completion_date>
+    <completion_date>June 2025</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Memorial Sloan Kettering Cancer Center, New York, New York, United States</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452825</url>
+  </study>
+  <study rank="2">
+    <nct_id>NCT04452812</nct_id>
+    <title>Statistical and Epidemiological Study Based on the Use of Convalescent Plasma for the Management of Patients With COVID-19</title>
+    <acronym>PROMETEO</acronym>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>COVID-19 Pneumonia</condition>
+      <condition>Convalescent Plasma</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Biological">Convalescent plasma</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>All-cause mortality</outcome_measure>
+      <outcome_measure>Side effects</outcome_measure>
+      <outcome_measure>Length of stay in Intensive Care Unit (ICU)</outcome_measure>
+      <outcome_measure>Length of stay in hospitalization</outcome_measure>
+      <outcome_measure>Days of mechanical ventilation</outcome_measure>
+      <outcome_measure>Inflammatory biomarkers</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Universidad Autonoma de Coahuila</lead_sponsor>
+      <collaborator>National Council of Science and Technology, Mexico</collaborator>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Phase 1</phase>
+      <phase>Phase 2</phase>
+    </phases>
+    <enrollment>15</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: Double (Participant, Care Provider)</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>HUS-001/2020</other_id>
+    </other_ids>
+    <start_date>July 6, 2020</start_date>
+    <primary_completion_date>March 1, 2021</primary_completion_date>
+    <completion_date>April 1, 2021</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations/>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452812</url>
+  </study>
+  <study rank="3">
+    <nct_id>NCT04452799</nct_id>
+    <title>Hesperidin and Diosmin for Treatment of COVID-19</title>
+    <acronym/>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Coronavirus Infection</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Drug">Hesperidin and Diosmin mixture</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>PCR test</outcome_measure>
+      <outcome_measure>respiratory rate</outcome_measure>
+      <outcome_measure>patients PaO2</outcome_measure>
+      <outcome_measure>serum IL1β</outcome_measure>
+      <outcome_measure>serum TNF-α</outcome_measure>
+      <outcome_measure>Mortality rate</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Tanta University</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <max_age>65 Years</max_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Early Phase 1</phase>
+    </phases>
+    <enrollment>100</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: Double (Participant, Care Provider)</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>1111</other_id>
+    </other_ids>
+    <start_date>July 1, 2020</start_date>
+    <primary_completion_date>October 1, 2020</primary_completion_date>
+    <completion_date>October 30, 2020</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations/>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452799</url>
+  </study>
+  <study rank="4">
+    <nct_id>NCT04452786</nct_id>
+    <title>Hormonal and Metabolic Aspects of Endoscopic Sleeve Gastroplasty</title>
+    <acronym/>
+    <status open="Y">Recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Endoscopic Sleeve Gastroplasty</condition>
+      <condition>Laparoscopic Sleeve Gastrectomy</condition>
+      <condition>Gut Hormones</condition>
+      <condition>Glucose Metabolism Disorders</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Procedure">Endoscopic sleeve gastroplasty</intervention>
+      <intervention type="Procedure">Laparoscopic sleeve gastrectomy</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Changes in ghrelin (pg/ml)</outcome_measure>
+      <outcome_measure>Changes in gut hormone response before and after sugery (pmol/L)</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Hvidovre University Hospital</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <max_age>75 Years</max_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Not Applicable</phase>
+    </phases>
+    <enrollment>24</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Non-Randomized</study_design>
+      <study_design>Intervention Model: Crossover Assignment</study_design>
+      <study_design>Masking: None (Open Label)</study_design>
+      <study_design>Primary Purpose: Basic Science</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>H-19012015</other_id>
+    </other_ids>
+    <start_date>June 5, 2020</start_date>
+    <primary_completion_date>April 2022</primary_completion_date>
+    <completion_date>April 2023</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Department of Endocrinology, Hvidovre University Hospital, Copenhagen, Hvidovre, Denmark</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452786</url>
+  </study>
+  <study rank="5">
+    <nct_id>NCT04452773</nct_id>
+    <title>Clinical Trial to Evaluate the Efficacy of Food Supplement Manremyc® Against SARS- COV-2 Infection (COVID-19) in Healthcare Workers</title>
+    <acronym/>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>COVID19</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Dietary Supplement">Manremyc</intervention>
+      <intervention type="Dietary Supplement">Placebo</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Documented cumulative incidence of SARS-CoV-2 infection</outcome_measure>
+      <outcome_measure>Documented sick leave for SARS-CoV-2</outcome_measure>
+      <outcome_measure>days off work due to the quarantine</outcome_measure>
+      <outcome_measure>Quarantine imposed by close contact outside the center with SARS-CoV-2 positive</outcome_measure>
+      <outcome_measure>Fever</outcome_measure>
+      <outcome_measure>Cumulative incidence of self-reported acute respiratory symptoms</outcome_measure>
+      <outcome_measure>Number of days of self-reported acute respiratory symptoms</outcome_measure>
+      <outcome_measure>Incidence of pneumonia</outcome_measure>
+      <outcome_measure>Cumulative incidence of death from documented SARS-CoV-2 infection</outcome_measure>
+      <outcome_measure>Incidence of admission to ICU</outcome_measure>
+      <outcome_measure>Days in IUC</outcome_measure>
+      <outcome_measure>Incidence of mechanical ventilation</outcome_measure>
+      <outcome_measure>Incidence of hospital admissions</outcome_measure>
+      <outcome_measure>Days of hospitalization</outcome_measure>
+      <outcome_measure>Levels of IgG</outcome_measure>
+      <outcome_measure>Levels of IgM</outcome_measure>
+      <outcome_measure>Levels of SARS-CoV-2 antibodies at the end of the study period</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Reig Jofre Group</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Not Applicable</phase>
+    </phases>
+    <enrollment>325</enrollment>
+    <funded_bys>
+      <funded_by>Industry</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)</study_design>
+      <study_design>Primary Purpose: Prevention</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>MANRECOVID19</other_id>
+    </other_ids>
+    <start_date>June 2020</start_date>
+    <primary_completion_date>September 2020</primary_completion_date>
+    <completion_date>December 2021</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Cap Sant Fèlix, Sabadell, Barcelona, Spain</location>
+      <location>Hospital Universitari Germans Trias i Pujol UBP Riscos Laborals, Badalona,, Badalona, Spain</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452773</url>
+  </study>
+  <study rank="6">
+    <nct_id>NCT04452760</nct_id>
+    <title>Effects of Ten-Weeks Progressive Resistance Training on Neuromuscular Performance, Mobility, Heart Rate Variability and Sleep Quality in Persons With Multiple Sclerosis</title>
+    <acronym/>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Multiple Sclerosis</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Other">Physical exercise</intervention>
+      <intervention type="Other">Testing sessions</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Maximal Voluntary Isometric Contraction of Knee Extension</outcome_measure>
+      <outcome_measure>Rate of Force Development</outcome_measure>
+      <outcome_measure>Central Activation Ratio</outcome_measure>
+      <outcome_measure>Spasticity</outcome_measure>
+      <outcome_measure>Walking speed</outcome_measure>
+      <outcome_measure>Static Balance</outcome_measure>
+      <outcome_measure>Functional capacity</outcome_measure>
+      <outcome_measure>Heart Rate Variability</outcome_measure>
+      <outcome_measure>Sleep Quality</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Universidad Católica San Antonio de Murcia</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>20 Years</min_age>
+    <max_age>65 Years</max_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Not Applicable</phase>
+    </phases>
+    <enrollment>36</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: None (Open Label)</study_design>
+      <study_design>Primary Purpose: Supportive Care</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>UCAM-CE071923</other_id>
+    </other_ids>
+    <start_date>July 15, 2020</start_date>
+    <primary_completion_date>October 1, 2020</primary_completion_date>
+    <completion_date>October 5, 2020</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Universidad Católica San Antonio, Murcia, Spain</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452760</url>
+  </study>
+  <study rank="7">
+    <nct_id>NCT04452747</nct_id>
+    <title>Artificial Induction of Labour in Full-term Singleton Pregnancy : Comparative Randomized Trial of Two Strategies</title>
+    <acronym>BESTWAY</acronym>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Pregnancy Related</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Procedure">Vaginal Dinoprostone system (Propess®)</intervention>
+      <intervention type="Procedure">Dilatation balloon</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Rate of vaginal deliveries</outcome_measure>
+      <outcome_measure>Rate of spontaneous vaginal deliveries</outcome_measure>
+      <outcome_measure>Rate of instrumentally assisted vaginal deliveries, including the reason for the assistance</outcome_measure>
+      <outcome_measure>Rate of C-section including the reason for the C-section</outcome_measure>
+      <outcome_measure>Timeframe between the beginning of the induction and the beginning of the labour</outcome_measure>
+      <outcome_measure>Cumulated rate of spontaneous vaginal deliveries</outcome_measure>
+      <outcome_measure>Rate of labour induction failure</outcome_measure>
+      <outcome_measure>Rate of secondary or tertiary use of Propess, Foley catheter of intra-veinous oxytocin</outcome_measure>
+      <outcome_measure>Rate of peridural anaesthesia during labour</outcome_measure>
+      <outcome_measure>Rate of uterine hyperstimulation without impact on the foetus</outcome_measure>
+      <outcome_measure>Rate of uterine hyperstimulation with an impact on the foetus</outcome_measure>
+      <outcome_measure>Rate of uterine hypertonia</outcome_measure>
+      <outcome_measure>Rate of post-partum haemorrhagia</outcome_measure>
+      <outcome_measure>Rate of uterine rupture</outcome_measure>
+      <outcome_measure>Rate of intra-uterine infections</outcome_measure>
+      <outcome_measure>Rate of post-partum infections</outcome_measure>
+      <outcome_measure>Rate of neonatal asphyxia</outcome_measure>
+      <outcome_measure>Rate of hospitalization in Neonatal intensive care unit</outcome_measure>
+      <outcome_measure>Rate of proven bacteriological infections in newborn babies</outcome_measure>
+      <outcome_measure>Rate of metrorrhagias while putting in place the dilatation balloon or the vaginal pad (dinoprostone)</outcome_measure>
+      <outcome_measure>Pain level linked to the inflation of the dilatation balloon and requiring the partial deflation of the balloon</outcome_measure>
+      <outcome_measure>Pain level recorded at different times of the labour induction</outcome_measure>
+      <outcome_measure>Assessment of the patient experience of the labour induction</outcome_measure>
+      <outcome_measure>Assessment of each strategy direct main costs</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>University Hospital, Montpellier</lead_sponsor>
+    </sponsors>
+    <gender>Female</gender>
+    <min_age>18 Years</min_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Not Applicable</phase>
+    </phases>
+    <enrollment>390</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: None (Open Label)</study_design>
+      <study_design>Primary Purpose: Supportive Care</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>RECHMPL19_0044</other_id>
+      <other_id>UF7756</other_id>
+    </other_ids>
+    <start_date>August 1, 2020</start_date>
+    <primary_completion_date>August 4, 2022</primary_completion_date>
+    <completion_date>August 4, 2023</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Montpellier University Hospital, Montpellier, France</location>
+      <location>Nimes University Hospital, Nîmes, France</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452747</url>
+  </study>
+  <study rank="8">
+    <nct_id>NCT04452734</nct_id>
+    <title>Efficacy of Platelet Rich Plasma (PRP) on Mouth Opening and Pain After Surgical Extraction of Mandibular Third Molars.</title>
+    <acronym/>
+    <status open="N">Completed</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Tooth Extraction</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Procedure">Platelet Rich Plasma (PRP)</intervention>
+      <intervention type="Procedure">Surgical Extraction</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Visual Analogue Scale (VAS)</outcome_measure>
+      <outcome_measure>Trismus</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Foundation University Islamabad</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <max_age>45 Years</max_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+    </age_groups>
+    <phases>
+      <phase>Not Applicable</phase>
+    </phases>
+    <enrollment>130</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Interventional</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Allocation: Randomized</study_design>
+      <study_design>Intervention Model: Parallel Assignment</study_design>
+      <study_design>Masking: None (Open Label)</study_design>
+      <study_design>Primary Purpose: Treatment</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>FUI/CTR/2020/3</other_id>
+    </other_ids>
+    <start_date>July 21, 2015</start_date>
+    <primary_completion_date>May 14, 2016</primary_completion_date>
+    <completion_date>May 14, 2016</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations/>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452734</url>
+  </study>
+  <study rank="9">
+    <nct_id>NCT04452721</nct_id>
+    <title>Prognosis Factors for the Treatment of Pectus Carinatum With a Dynamic Compression System</title>
+    <acronym>Pectusdyn</acronym>
+    <status open="Y">Not yet recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Pectus Carinatum</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Other">dynamic compression system</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>Decrease of the deformation of more than 50% (measured in mm) after 6 months of treatment</outcome_measure>
+      <outcome_measure>Failure of treatment assessed by the patient, ie if the patients considers the treatment to have failed, if he choose to underwent surgery afterwards, or if he considered the pectus carinatum to have relapsed</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Centre Hospitalier Universitaire de Saint Etienne</lead_sponsor>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>6 Years</min_age>
+    <max_age>40 Years</max_age>
+    <age_groups>
+      <age_group>Child</age_group>
+      <age_group>Adult</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>520</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+      <study_design>Time Perspective: Other</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>20CH030</other_id>
+    </other_ids>
+    <start_date>June 2020</start_date>
+    <primary_completion_date>December 2020</primary_completion_date>
+    <completion_date>December 2020</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>CHU de Saint-Etienne, Saint-Étienne, France</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452721</url>
+  </study>
+  <study rank="10">
+    <nct_id>NCT04452708</nct_id>
+    <title>HFNC and NIV for COVID-19 Complicated by Respiratory Failure</title>
+    <acronym/>
+    <status open="Y">Recruiting</status>
+    <study_results>No Results Available</study_results>
+    <conditions>
+      <condition>Respiratory Failure</condition>
+    </conditions>
+    <interventions>
+      <intervention type="Device">HFNC</intervention>
+    </interventions>
+    <outcome_measures>
+      <outcome_measure>detection of viral RNA from one or more participants' air samples</outcome_measure>
+      <outcome_measure>the nasopharyngeal flocked swab and throat swab viral load (log10 copies/mL)</outcome_measure>
+    </outcome_measures>
+    <sponsors>
+      <lead_sponsor>Chinese University of Hong Kong</lead_sponsor>
+      <collaborator>Health and Medical Research Fund</collaborator>
+    </sponsors>
+    <gender>All</gender>
+    <min_age>18 Years</min_age>
+    <age_groups>
+      <age_group>Adult</age_group>
+      <age_group>Older Adult</age_group>
+    </age_groups>
+    <phases/>
+    <enrollment>15</enrollment>
+    <funded_bys>
+      <funded_by>Other</funded_by>
+    </funded_bys>
+    <study_types>Observational</study_types>
+    <exp_acc_types/>
+    <study_designs>
+      <study_design>Observational Model: Cohort</study_design>
+      <study_design>Time Perspective: Prospective</study_design>
+    </study_designs>
+    <other_ids>
+      <other_id>2020.203</other_id>
+    </other_ids>
+    <start_date>June 11, 2020</start_date>
+    <primary_completion_date>June 10, 2021</primary_completion_date>
+    <completion_date>June 10, 2021</completion_date>
+    <study_first_posted>June 30, 2020</study_first_posted>
+    <last_update_posted>June 30, 2020</last_update_posted>
+    <locations>
+      <location>Prince of Wales Hospital, Hong Kong, Hong Kong</location>
+    </locations>
+    <documents/>
+    <url>https://ClinicalTrials.gov/show/NCT04452708</url>
+  </study>
+</search_results>
