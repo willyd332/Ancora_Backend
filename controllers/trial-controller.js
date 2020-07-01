@@ -7,12 +7,32 @@ router.get('/', async (req, res) => {
   try {
     res.json({
       status: 200,
-      data: 'Hello World',
+      data: 'Hello Trials',
     });
   } catch (err) {
     console.log(err);
     res.json({
       status: 500,
+      err,
+    });
+  }
+});
+
+router.post('/add', async (req, res) => {
+  try {
+    const update = await db.query(''); // update user's studies with req.session.userId
+    console.log(update);
+
+    res.json({
+      status: 200,
+      data: update,
+    });
+  } catch (err) {
+    console.log(err);
+
+    res.json({
+      status: 500,
+      data: false,
       err,
     });
   }

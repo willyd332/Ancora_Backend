@@ -26,8 +26,10 @@ app.use(session({
 }));
 
 const trialController = require('./controllers/trial-controller');
+const authController = require('./controllers/auth-controller');
 
 app.use('/trial', trialController);
+app.use('/auth', authController);
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
