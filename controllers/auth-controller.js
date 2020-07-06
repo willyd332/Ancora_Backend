@@ -12,6 +12,7 @@ const incorrectInfo = {
 
 router.post('/login', async (req, res) => {
   console.log('Receiving Request');
+  console.log(req.body);
 
   try {
     const foundUser = await db.query('SELECT * FROM users WHERE username = $1', [req.body.username]);
@@ -56,6 +57,8 @@ router.post('/register', async (req, res) => {
 
   const passwordHash = await bcrypt.hashSync(password, bcrypt.genSaltSync(10));
 
+  console.log(passwordHash);
+
   const newUser = {
     username: req.body.username,
     email: req.body.email,
@@ -63,13 +66,14 @@ router.post('/register', async (req, res) => {
   };
 
   try {
-    const createdUser = await db.query('INSERT INTO users (username, email, password) VALUES ($1, $2, $3)', [newUser.username, newUser.email, newUser.password]);
-    console.log(createdUser);
+    const createUser = await db.query('INSERT INTO users (username, email, password) VALUES ($1, $2, $3)', [newUser.username, newUser.email, newUser.password]);
 
-    if (createdUser) {
+    if (createUser) {
+      const { rows } = await db.query('SELECT * FROM users WHERE username = $1', [newUser.username]);
+      const createdUser = rows[0];
       req.session.logged = true;
       req.session.userId = createdUser.id;
-
+      console.log(createdUser);
       res.json({
         status: 200,
         data: createdUser,
@@ -103,15 +107,35 @@ router.get('/logout', (req, res) => {
   });
 });
 
-router.get('/session', (req, res) => {
-  if (req.session.logged) {
-    res.json({
-      data: req.session.userId,
-      status: 200,
-    });
-  } else {
+router.post('/session', async (req, res) => {
+  console.log('Receiving Request');
+  console.log(req.body);
+
+  try {
+    const { rows } = await db.query('SELECT * FROM users WHERE id = $1', [req.body.id]);
+    const foundUser = rows[0];
+    console.log(foundUser);
+
+    if (foundUser) {
+      console.log(`logging in ${req.body.username}`);
+
+      req.session.logged = true;
+      req.session.userId = foundUser.id;
+
+      res.json({
+        status: 200,
+        data: foundUser,
+      });
+    } else {
+      res.json(incorrectInfo);
+    }
+  } catch (err) {
+    console.log(err);
+
     res.json({
       status: 500,
+      data: false,
+      err,
     });
   }
 });
