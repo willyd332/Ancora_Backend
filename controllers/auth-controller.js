@@ -19,11 +19,7 @@ router.post('/login', async (req, res) => {
     console.log(foundUser);
 
     if (foundUser) {
-      let matching = await bcrypt.compareSync(req.body.password, foundUser.password);
-
-      if (req.body.id.toString() === foundUser.id.toString()) {
-        matching = true;
-      }
+      const matching = await bcrypt.compareSync(req.body.password, foundUser.password);
 
       if (matching === true) {
         console.log(`logging in ${req.body.username}`);
