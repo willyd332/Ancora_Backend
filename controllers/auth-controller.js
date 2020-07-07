@@ -53,8 +53,6 @@ router.post('/register', async (req, res) => {
 
   const passwordHash = await bcrypt.hashSync(password, bcrypt.genSaltSync(10));
 
-  console.log(passwordHash);
-
   const newUser = {
     username: req.body.username,
     email: req.body.email,
@@ -62,14 +60,13 @@ router.post('/register', async (req, res) => {
   };
 
   try {
-    const createUser = await db.query('INSERT INTO users (username, email, password) VALUES ($1, $2, $3)', [newUser.username, newUser.email, newUser.password]);
-
-    if (createUser) {
+    const checkUser = await db.query('SELECT * FROM users WHERE username = $1', [newUser.username]);
+    if (checkUser.rowCount === 0) {
+      await db.query('INSERT INTO users (username, email, password) VALUES ($1, $2, $3)', [newUser.username, newUser.email, newUser.password]);
       const { rows } = await db.query('SELECT * FROM users WHERE username = $1', [newUser.username]);
       const createdUser = rows[0];
       req.session.logged = true;
       req.session.userId = createdUser.id;
-      console.log(createdUser);
       res.json({
         status: 200,
         data: createdUser,
