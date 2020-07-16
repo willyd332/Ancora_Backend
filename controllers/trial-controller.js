@@ -3,11 +3,18 @@ const db = require('../db/db.js');
 
 const router = express.Router();
 
-router.get('/', async (req, res) => {
+router.get('/conditions/:str', async (req, res) => {
   try {
+    const { rows } = await db.query(`
+      SELECT condition, condition <-> $1 AS dist
+      FROM conditions
+      ORDER BY dist LIMIT 10;
+    `, [req.params.str]);
+
+    console.log(rows);
     res.json({
       status: 200,
-      data: 'Hello Trials',
+      data: rows,
     });
   } catch (err) {
     console.log(err);
