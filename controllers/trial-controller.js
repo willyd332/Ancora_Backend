@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 const express = require('express');
 const db = require('../db/db.js');
 
@@ -25,15 +26,60 @@ router.get('/conditions/:str', async (req, res) => {
   }
 });
 
-router.post('/add', async (req, res) => {
+router.post('/check', async (req, res) => {
   try {
-    const update = await db.query(''); // update user's studies with req.session.userId
-    console.log(update);
+    const { studyid, user_id } = req.body;
+
+    console.log(req.body);
+
+    const check = await db.query(`
+      SELECT * FROM studies WHERE user_id = $1 AND studyid = $2
+    `, [user_id, studyid]);
+
+    if (check.rowCount > 0) {
+      res.json({
+        status: 200,
+        data: true,
+      });
+    } else {
+      res.json({
+        status: 200,
+        data: false,
+      });
+    }
+  } catch (err) {
+    console.log(err);
 
     res.json({
-      status: 200,
-      data: update,
+      status: 500,
+      data: false,
+      err,
     });
+  }
+});
+
+router.post('/add', async (req, res) => {
+  try {
+    const { studyid, user_id } = req.body;
+
+    console.log(req.body);
+
+    const check = await db.query(`
+      SELECT * FROM studies WHERE user_id = $1 AND studyid = $2
+    `, [user_id, studyid]);
+
+    if (check.rowCount < 1) {
+      const update = await db.query(`
+        INSERT INTO studies (user_id, studyid) VALUES ($1, $2);
+      `, [user_id, studyid]);
+
+      console.log(update);
+
+      res.json({
+        status: 200,
+        data: update,
+      });
+    }
   } catch (err) {
     console.log(err);
 
@@ -46,5 +92,3 @@ router.post('/add', async (req, res) => {
 });
 
 module.exports = router;
-
-// Example Query: const { rows } = await db.query('SELECT * FROM users WHERE id = $1', [1]);
