@@ -91,4 +91,27 @@ router.post('/add', async (req, res) => {
   }
 });
 
+router.get('/studies/:id', async (req, res) => {
+  try {
+    const user_id = req.params.id;
+
+    const data = await db.query(`
+      SELECT * FROM studies INNER JOIN users ON studies.user_id = users.id WHERE studies.user_id = $1
+    `, [user_id]);
+
+    res.json({
+      status: 200,
+      data: data.rows.map((study) => study.studyid),
+    });
+  } catch (err) {
+    console.log(err);
+
+    res.json({
+      status: 500,
+      data: false,
+      err,
+    });
+  }
+});
+
 module.exports = router;
