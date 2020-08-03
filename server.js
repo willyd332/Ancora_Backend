@@ -7,7 +7,7 @@ const session = require('express-session');
 require('dotenv').config();
 const db = require('./db/db.js');
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const corsOptions = {
