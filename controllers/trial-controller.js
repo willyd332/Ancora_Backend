@@ -114,4 +114,29 @@ router.get('/studies/:id', async (req, res) => {
   }
 });
 
+router.post('/delete', async (req, res) => {
+  try {
+    const { studyid, user_id } = req.body;
+
+    console.log(req.body);
+
+    const deleted = await db.query(`
+      DELETE FROM studies WHERE user_id = $1 AND studyid = $2
+    `, [user_id, studyid]);
+
+    res.json({
+      status: 200,
+      data: deleted,
+    });
+  } catch (err) {
+    console.log(err);
+
+    res.json({
+      status: 500,
+      data: false,
+      err,
+    });
+  }
+});
+
 module.exports = router;
